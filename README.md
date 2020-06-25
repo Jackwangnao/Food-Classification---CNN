@@ -1,12 +1,12 @@
 # Food-Classification---CNN
-* **基础CNN模型**见文件`CNN_food_classification.ipynb`
-* 基于基础模型改进的**最优版CNN模型**见文件`more_conv_CNN_food_classification2.ipynb`
+* **基础CNN模型** 见文件`CNN_food_classification.ipynb`
+* 基于基础模型改进的 **最优版CNN模型** 见文件`more_conv_CNN_food_classification2.ipynb`
 * 其他`.ipynb`文件为基于基础模型改进的其他模型
 * `.csv`文件为与其同名的`.ipynb`模型的`test set`预测结果
 ## 1.实验数据集
-数据集为食物照片，共有11类 Bread, Dairy product, Dessert, Egg, Fried food, Meat, Noodles/Pasta, Rice, Seafood, Soup, and Vegetable/Fruit，其中Training set有9866张照片，Validation set有3430张照片，Testing set有3347张照片。
+数据集为食物照片，共有11类 Bread, Dairy product, Dessert, Egg, Fried food, Meat, Noodles/Pasta, Rice, Seafood, Soup, and Vegetable/Fruit，其中`Training set`有9866张照片，`Validation set`有3430张照片，`Testing set`有3347张照片。
 ## 2.作业概述
-输入一张食物的图片，然后输出图片中食物所属的类别（0、1、2、……、10），选用的模型是卷积神经网络CNN。
+输入一张食物的图片，然后输出图片中食物所属的类别（0、1、2、……、10），选用的模型是**卷积神经网络CNN**。
 ## 3.运行环境
 * Google Colaboratory
 * GPU：Colab随机分配
@@ -55,7 +55,7 @@
       <td>0.00145</td>
    </tr>
    <tr>
-      <td>增加卷积层（中间有仅有卷积无池化的层）</td>
+      <td>增加卷积层（中间有只有卷积无池化的层）</td>
       <td>0.755321</td>
       <td>0.005596</td>
       <td>0.641983</td>
