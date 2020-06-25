@@ -4,9 +4,9 @@
 ## 2.作业概述
 输入一张食物的图片，然后输出图片中食物所属的类别（0、1、2、……、10），选用的模型是卷积神经网络CNN。
 ## 3.运行环境
-GPU：2X 1080TI
-Windows10
-Python=3.6 and Pytorch=1.2.0
+Google Colaboratory
+GPU：Colab随机分配
+Python=3.6 and Pytorch=1.5.1
 ## 4.模型结构
 首先将图片导入，用opencv（cv2）读取图片并存放在numpy中，每张图片都是128*128*3，然后通过随机旋转、水平翻转图片等方法对图片进行数据增强，最后建立模型。
 我们首先建立了一个原始模型，利用nn.Conv2d，nn.BatchNorm2d，nn.ReLU，nn.MaxPool2d这4个函数来构建一个5层的CNN，然后进入到一个3层全连接层
