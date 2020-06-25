@@ -1,7 +1,7 @@
 # Food-Classification---CNN
-基础CNN模型见文件`CNN_food_classification.ipynb`
-基于基础模型改进的最优版CNN模型见文件`more_conv_CNN_food_classification2.ipynb`
-其他`.ipynb`文件为基于基础模型改进的其他模型
+* 基础CNN模型见文件`CNN_food_classification.ipynb`
+* 基于基础模型改进的最优版CNN模型见文件`more_conv_CNN_food_classification2.ipynb`
+* 其他`.ipynb`文件为基于基础模型改进的其他模型
 ## 1.实验数据集
 数据集为食物照片，共有11类 Bread, Dairy product, Dessert, Egg, Fried food, Meat, Noodles/Pasta, Rice, Seafood, Soup, and Vegetable/Fruit，其中Training set有9866张照片，Validation set有3430张照片，Testing set有3347张照片。
 ## 2.作业概述
